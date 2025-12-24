@@ -88,6 +88,8 @@
     #contact{
       background-color: rgb(255 255 255) !important;
     }
+
+    
     </style>
     @endpush
     @stack('styles')
