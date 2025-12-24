@@ -18,6 +18,8 @@ class RegisterSale extends BaseForm
         parent::__construct(
             model_class: Sale::get_class(),
             submit_text: "Registrar Venta",
+            success_msg: "Venta registrada exitosamente",
+            reload: true,
             fields: [
                 'unit'=>Selector::fromDB(
                     id:"unit",
