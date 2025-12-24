@@ -15,6 +15,12 @@
             align-items: center;
             gap: 1rem;
         }
+        #{{ $form->get_id() }}-fields{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: .5rem;
+        }
     </style>
     @endpush
     @stack('styles')
