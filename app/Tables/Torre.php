@@ -16,9 +16,18 @@ class Torre extends BaseTable
 {
     public function __construct(){
         parent::__construct();
-        $this->getter->columns['m2'] = new Column(
+        $this->getter->columns = [
+            'unit'=>new Column(
+                display:"Unidad",
+            ),
+            'price'=>new Column(
+                display:"Fracción",
+                modifier: Modifier::MONEY,
+            ),
+            'm2'=> new Column(
                 display:"Terreno (m²)",
                 modifier: Modifier::METERS
-            );
+            )
+        ];
     }
 }

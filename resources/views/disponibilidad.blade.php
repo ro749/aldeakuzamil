@@ -4,7 +4,7 @@
 <link href="css/style.css" rel="stylesheet" type="text/css" >
 @endpush
 @include('head')
-
+@stack('styles')
 <body class="dark-scheme section-dark">
 
     <div id="wrapper">
@@ -312,6 +312,7 @@ Aquí, la sustentabilidad no es solo un compromiso, es el corazón de cada detal
           height: '100%'
         });
     });
+    
 </script>
 @endpush
 @include(config('overrides.views.scripts'))

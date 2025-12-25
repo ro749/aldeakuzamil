@@ -89,8 +89,18 @@
       background-color: rgb(255 255 255) !important;
     }
 
+    #RegisterClient-button .btn{
+      background-color: #c8cda2 !important;
+      color: #3e401c !important;
+      width: 9rem;
+    }
+
+    #SelectClient-button .btn{
+      background-color: #c8cda2 !important;
+      color: #3e401c !important;
+      width: 9rem;
+    }
     
     </style>
     @endpush
-    @stack('styles')
 </head>

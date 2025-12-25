@@ -26,8 +26,10 @@ return [
         'head' => 'head',
         'header' => 'header',
         'sales-table' => 'sales-table',
+        'scripts' => 'scripts',
         'simple-login' => 'simple-login',
         'welcome' => 'welcome',
     ],
+    'plans' => App\Plans\Plans::class,
     'image_map_pro' => App\ImageMapPro\SingleImageMapPro::class,
 ];
