@@ -100,6 +100,18 @@
       color: #3e401c !important;
       width: 9rem;
     }
+
+    #plans{
+      background-color: #3e401c !important;
+    }
+
+    .plan-div{
+      background-color: #c8cda2 !important;
+    }
+
+    #plans p, #plans span{
+      color:  #3e401c !important;
+    }
     
     </style>
     @endpush
