@@ -49,7 +49,7 @@
     </div>
     <div class="row">
         <div class="label">Valor Promedio Noche*</div>
-        <div class="value" id="night-value">200</div>
+        <div class="value" id="night-value">$200</div>
     </div>
     <div class="row line bold">
         <div class="label">Rendimiento Anual total</div>
@@ -70,7 +70,7 @@
     </div>
     <div class="row">
         <div class="label">Mantenimiento</div>
-        <div class="value" id="#mantenimiento">400</div>
+        <div class="value" id="#mantenimiento">$400</div>
     </div>
     <div class="row">
         <div class="label">Valor de las Fracciones</div>
@@ -136,7 +136,13 @@
         proyection_changed();
     });
 
-    $('#weeks-personal').on('input', function() {
+    $('#weeks-personal').on('input', function(e) {
+        if(e.target.value < 0){
+            e.target.value = 0;
+        }
+        if(e.target.value > ($('#fracciones').val() * 6)){
+            e.target.value = $('#fracciones').val() * 6;
+        }
         proyection_changed();
     });
 
@@ -145,8 +151,9 @@
         var weeks = fracciones * 6;
         var inversion = fracciones * data['price'];
         var weeks_personal = $('#weeks-personal').val();
-        var nights_available = (weeks - weeks_personal) * 7;
-        var rent_per_night = $('#night-value').html();
+        var nights_available = Math.floor((weeks - weeks_personal) * 7*0.8);
+        var rent_per_night = $('#night-value').get_number();
+        //esta es la que considera
         var rent = nights_available * rent_per_night;
         var cost_admin = rent * 0.1;
         var mantenimiento = inversion * 0.005;

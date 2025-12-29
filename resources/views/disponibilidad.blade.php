@@ -115,7 +115,9 @@ Aquí, la sustentabilidad no es solo un compromiso, es el corazón de cada detal
             {!! $sender->render() !!}
             @endif
             </div>
-            @include('financial-proyection')
+            <div id="financial-proyection-area">
+                @include('financial-proyection')
+            </div>
         </section>
 
         <section id="section-gallery" style="background-color:#3e401c !important;" class="bg-dark-2 relative">

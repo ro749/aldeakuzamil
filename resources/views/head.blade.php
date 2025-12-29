@@ -19,6 +19,15 @@
             width: 50%;
             margin: 0;
         }
+        #unit-info {
+            background-color: #3e401c !important;
+        }
+        #financial-proyection-area {
+            background-color: #3e401c !important;
+        }
+        #financial-proyection-area div{
+            color: #c8cda2 !important;
+        }
         .financial-projection input{
             color: white !important;
         }
