@@ -234,52 +234,36 @@ Aquí, la sustentabilidad no es solo un compromiso, es el corazón de cada detal
                 <div class="col-lg-8">
                     <div class="text-center">
                         <img src="imagenes/logo.png" class="w-200px" alt="">
-                        <div class="spacer-single"></div>
-                        <div class="fs-16">
-                            Ubicación
-                        </div>
-                                                
-                                                <div class="social-icons mb-sm-30 text-center">
-                                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                                                </div>
+                        
                     </div>
                 </div>                
             </div>
 
             <div class="spacer-double"></div>
-
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 mb-sm-30">
-                    <div class="d-flex justify-content-center">
-                        <i class="fs-30 id-color icon_phone"></i>
-                        <div class="ms-3">
-                            <h4 class="mb-0">Llámanos</h4>
-                            <p>33 1855 1493</p>
-                        </div>
+                    <div class="d-flex justify-content-center" style="align-items: center; gap: 1rem;">
+                        <i class="fs-30 id-color icon_phone" style="height: auto;"></i>
+                        <h4 class="mb-0">Llámanos</h4>      
                     </div>
+                    <p style="text-align: center">33 1855 1493</p>
                 </div>
                 
                 <div class="col-lg-4 col-md-6 mb-sm-30">
-                    <div class="d-flex justify-content-center">
-                        <i class="fs-30 id-color icon_clock"></i>
-                        <div class="ms-3">
-                            <h4 class="mb-0">Horario</h4>
-                            <p>Lunes a Sábado 10:00 am - 8:00 pm</p>
-                        </div>
+                    <div class="d-flex justify-content-center" style="align-items: center; gap: 1rem;">
+                        <i class="fs-30 id-color icon_clock" style="height: auto;"></i>
+                        <h4 class="mb-0">Horario</h4>      
                     </div>
+                    <p style="text-align: center">Lunes a Sábado 10:00 am - 8:00 pm</p>
                 </div>
-
+                    
                 <div class="col-lg-4 col-md-6 mb-sm-30">
-                    <div class="d-flex justify-content-center">
-                        <i class="fs-30 id-color icon_mail"></i>
-                        <div class="ms-3">
-                            <h4 class="mb-0">Email</h4>
-                            <p>contacto@aldeakuzamil.com</p>
-                        </div>
+                    <div class="d-flex justify-content-center" style="align-items: center; gap: 1rem;">
+                        <i class="fs-30 id-color icon_mail" style="height: auto;"></i>
+                        <h4 class="mb-0">Email</h4>      
                     </div>
-                </div>                
+                    <p style="text-align: center">contacto@aldeakuzamil.com</p>
+                </div>              
             </div>
 
         </div>

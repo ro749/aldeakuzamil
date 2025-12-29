@@ -121,6 +121,26 @@
     #plans p, #plans span{
       color:  #3e401c !important;
     }
+
+    #asesor-title{
+      color:  #3e401c !important;
+    }
+
+    #asesor-name{
+      color:  #3e401c !important;
+    }
+
+    #asesor-phone{
+      color:  #c8cda2 !important;
+    }
+
+    #asesor-mail{
+      color:  #c8cda2 !important;
+    }
+
+    .dark-scheme #de-loader {
+      background-color: #3e401c !important;
+    }
     
     </style>
     @endpush
