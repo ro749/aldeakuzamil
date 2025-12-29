@@ -52,7 +52,7 @@ Aquí, la sustentabilidad no es solo un compromiso, es el corazón de cada detal
 
      
         <section id="unit-info" style="
-        @if(false)
+        @if(empty($unit))
         display: none;
         @endif
         ">
