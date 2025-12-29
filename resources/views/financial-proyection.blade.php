@@ -151,10 +151,10 @@
         var weeks = fracciones * 6;
         var inversion = fracciones * data['price'];
         var weeks_personal = $('#weeks-personal').val();
-        var nights_available = Math.floor((weeks - weeks_personal) * 7*0.8);
+        var nights_available = Math.floor((weeks - weeks_personal) * 7);
         var rent_per_night = $('#night-value').get_number();
         //esta es la que considera
-        var rent = nights_available * rent_per_night;
+        var rent = nights_available * rent_per_night*0.8;
         var cost_admin = rent * 0.1;
         var mantenimiento = inversion * 0.005;
         var utility = rent - cost_admin - mantenimiento;
