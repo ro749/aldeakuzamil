@@ -18,6 +18,11 @@
             flex-direction: row;
             justify-content: center;
         }
+
+        #RegisterSale-button button{
+            background-color: var(--neutral-900);
+            color: #fff;
+        }
     </style>
 </head>
 

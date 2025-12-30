@@ -141,6 +141,10 @@
     .dark-scheme #de-loader {
       background-color: #3e401c !important;
     }
+
+    .popup h4{
+      color: black !important;
+    }
     
     </style>
     @endpush
