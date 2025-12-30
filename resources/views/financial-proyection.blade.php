@@ -7,7 +7,7 @@
     );
 @endphp
 
-<div class="financial-projection" style="padding-left: 12rem; padding-right: 12rem; display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 2rem; row-gap: .25rem;">
+<div id="financial-projection">
     <div class="section-title">Variables</div>
     <div></div>
     <div class="row">
@@ -124,7 +124,7 @@
     </div>
 </div>
 
-<div style="padding-left: 12rem; padding-right: 12rem;" class="footer">
+<div class="footer">
     Las proyecciones financieras presentadas se basan en estimaciones y supuestos actuales.
     Estos cálculos son únicamente informativos y no constituyen garantía de resultados futuros.
 </div>

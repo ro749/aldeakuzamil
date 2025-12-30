@@ -15,10 +15,7 @@
         .plan-title, .plan-line-desc {
             color: black;
         }
-        #plan-div-5 {
-            width: 50%;
-            margin: 0;
-        }
+        
         #unit-info {
             background-color: #3e401c !important;
         }
@@ -28,68 +25,68 @@
         #financial-proyection-area div{
             color: #c8cda2 !important;
         }
-        .financial-projection input{
+        #financial-projection input{
             color: white !important;
         }
-.financial-projection .container {
+#financial-projection .container {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 60px;
     }
 
-    .financial-projection .section {
+    #financial-projection .section {
       margin-bottom: 25px;
     }
 
-    .financial-projection .section-title {
+    #financial-projection .section-title {
       font-size: 18px;
       font-weight: bold;
       margin-bottom: 10px;
     }
 
-    .financial-projection .row {
+    #financial-projection .row {
       display: grid;
       grid-template-columns: 70% 30%;
       padding: 4px 0;
     }
 
-    .financial-projection .label {
+    #financial-projection .label {
       text-align: left;
     }
 
-    .financial-projection .value {
+    #financial-projection .value {
       text-align: right;
     }
 
-    .financial-projection .bold {
+    #financial-projection .bold {
       font-weight: bold;
     }
 
-    .financial-projection .line {
+    #financial-projection .line {
       border-top: 1px solid #000;
       margin-top: 6px;
       padding-top: 6px;
     }
 
-    .financial-projection .note {
+    #financial-projection .note {
       font-size: 12px;
       margin-top: 8px;
     }
 
-    .financial-projection .footer {
+    #financial-projection .footer {
       margin-top: 40px;
       font-size: 12px;
     }
 
-    .financial-projection input:focus {
+    #financial-projection input:focus {
       background-color: inherit !important;
     }
 
-    .financial-projection input[type=number] {
+    #financial-projection input[type=number] {
       -moz-appearance: textfield;
     }
 
-    .financial-projection input::-webkit-inner-spin-button {
+    #financial-projection input::-webkit-inner-spin-button {
       -webkit-appearance: none;
       margin: 0;
     }
@@ -144,6 +141,29 @@
 
     .popup h4{
       color: black !important;
+    }
+
+    @media (min-width: 768px) {
+        #plan-div-5 {
+            width: 50%;
+            margin: 0;
+        }
+        #financial-proyection-area {
+            padding-left: 12rem; padding-right: 12rem; 
+        }
+
+        #financial-projection{
+          display: grid; 
+          grid-template-columns: repeat(2, 1fr); 
+          column-gap: 2rem; 
+          row-gap: .25rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        #financial-proyection-area {
+            padding-left: 1rem; padding-right: 1rem; 
+        }
     }
     
     </style>
